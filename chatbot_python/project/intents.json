@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi","Hey", "Hey I have a doubt","I need some help", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello! Welcome to Pearl Diner's Virtual world. I would assist you around today. ","Sure! we are here to clear your doubts. What is your query?", "We are always there to help you.", "Yes!!! How can i help you?", "Good to see you again!", "Good day to you too..", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Thanks", "cya", "See you later", "Goodbye", "Have a Good day"],
+         "responses": ["I expect I clarified all your queries.Have a good day:-))", "Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how long does it take for my food to be delivered?", "order delivery time","" ],
+         "responses": ["It would take a maximum of 50 minutes.", "A maximum of 50 minutes for more accuracy i would request you to go through the gps tracker in the website."],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what should I call you","whats your name?", "what is the signature dish of your Restaurant?","Signature Dish","desserts","Desserts you would suggest??"],
+         "responses": ["You can call me pearly", "I'm Pearly!", "For vegetarians it would be shahi paneer and for non-vegetarians Chicken biryani tops the list.","shahi paneer and chicken biryani","pistachio icecream dessert is yum :-))"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?"],
+         "responses": ["We sell chocolate chip cookies for Rs.15!", "Cookies are on the menu!", "choco-chip cookies are treat to hungry stomach."],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation", "time you are open?"],
+         "responses": ["We are open 7am-10pm Monday-Friday!"],
+         "context_set": ""
+        }
+   ]
+}
